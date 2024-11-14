@@ -1,45 +1,111 @@
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
+    background-color: #121212;
     color: #fff;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
 }
 
-section {
-    padding: 2rem;
-    margin: 1rem 0;
-    background: #fff;
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+    color: #aaa;
 }
 
-h2 {
-    color: #333;
+nav ul li a {
+    text-decoration: none;
+    color: #90ee90;
+}
+
+#intro {
+    max-width: 600px;
+}
+
+/* Neon Text Effect */
+.neon-text {
+    font-size: 4rem;
+    color: #90ee90;
+    text-shadow: 
+        0 0 5px #90ee90,
+        0 0 10px #90ee90,
+        0 0 20px #90ee90,
+        0 0 40px #00ff00,
+        0 0 80px #00ff00,
+        0 0 90px #00ff00,
+        0 0 100px #00ff00;
+}
+
+/* Subtitle Styling */
+.role {
+    font-size: 2rem;
+    color: #32cd32;
+    letter-spacing: 0.2rem;
     margin-bottom: 1rem;
 }
 
-a {
-    color: #333;
-    text-decoration: none;
+.description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Button Styles */
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #90ee90;
+    color: #90ee90;
+    transition: 0.3s ease;
+}
+
+.contact {
+    background-color: #90ee90;
+    color: #121212;
+}
+
+.learn {
+    position: relative;
+}
+
+.learn::after {
+    content: "→";
+    position: absolute;
+    right: -10px;
+    color: #90ee90;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.button:hover {
+    background-color: #121212;
+    color: #90ee90;
 }
