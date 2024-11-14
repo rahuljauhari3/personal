@@ -1,111 +1,87 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
     background-color: #121212;
-    color: #fff;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+header {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    margin-top: 20px;
-    color: #aaa;
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #90ee90;
-}
-
-#intro {
-    max-width: 600px;
-}
-
-/* Neon Text Effect */
-.neon-text {
-    font-size: 4rem;
-    color: #90ee90;
-    text-shadow: 
-        0 0 5px #90ee90,
-        0 0 10px #90ee90,
-        0 0 20px #90ee90,
-        0 0 40px #00ff00,
-        0 0 80px #00ff00,
-        0 0 90px #00ff00,
-        0 0 100px #00ff00;
-}
-
-/* Subtitle Styling */
-.role {
-    font-size: 2rem;
-    color: #32cd32;
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem;
+.intro {
+    font-size: 1.5rem;
+    color: #76c7c0;
 }
 
 .description {
-    font-size: 1rem;
-    color: #ccc;
-    margin-bottom: 2rem;
+    margin: 10px 0;
 }
 
-/* Button Styles */
-.buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.button {
+.social-links a {
+    color: #76c7c0;
+    margin: 0 10px;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid #90ee90;
-    color: #90ee90;
-    transition: 0.3s ease;
 }
 
-.contact {
-    background-color: #90ee90;
-    color: #121212;
+.projects, .thoughts, .contact {
+    margin-top: 30px;
 }
 
-.learn {
-    position: relative;
+h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
-.learn::after {
-    content: "→";
-    position: absolute;
-    right: -10px;
-    color: #90ee90;
-    animation: bounce 1s infinite;
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(5px);
-    }
+.project-card {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    color: #e0e0e0;
 }
 
-.button:hover {
-    background-color: #121212;
-    color: #90ee90;
+.project-card h3 {
+    color: #76c7c0;
+    font-size: 1.2rem;
+}
+
+.project-card span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.thoughts a, .contact a {
+    color: #76c7c0;
+    text-decoration: none;
+}
+
+.thoughts a:hover, .contact a:hover {
+    text-decoration: underline;
 }
