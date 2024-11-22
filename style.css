@@ -1,87 +1,152 @@
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    background-color: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
+/* Container */
 .container {
-    max-width: 800px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0;
     padding: 20px;
+    text-align: left; /* Ensure text aligns left */
 }
 
+/* Header Section */
 header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-h1 {
+header h1 {
     font-size: 2.5rem;
-    color: #fff;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-.intro {
+header .intro {
     font-size: 1.5rem;
-    color: #76c7c0;
+    color: #00ff00;
+    text-align: left;
 }
 
-.description {
-    margin: 10px 0;
+header .description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-.social-links a {
-    color: #76c7c0;
-    margin: 0 10px;
+header .social-links a {
+    color: #ffffff;
     text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
 }
 
-.projects, .thoughts, .contact {
-    margin-top: 30px;
+header .social-links a:hover {
+    text-decoration: underline;
 }
 
-h2 {
-    font-size: 1.8rem;
-    color: #fff;
-    margin-bottom: 15px;
+/* Project Section */
+.projects {
+    margin-bottom: 50px;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .project-grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .project-card {
-    background-color: #222;
+    background-color: #222222;
     padding: 15px;
     border-radius: 8px;
-    color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .project-card h3 {
-    color: #76c7c0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 .project-card span {
+    display: block;
     font-size: 0.9rem;
-    color: #888;
+    color: #999999;
 }
 
-.thoughts a, .contact a {
-    color: #76c7c0;
+/* Publications Section */
+.publications h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications li {
+    margin-bottom: 15px;
+}
+
+.publications a {
+    color: #00ff00;
     text-decoration: none;
 }
 
-.thoughts a:hover, .contact a:hover {
+.publications a:hover {
     text-decoration: underline;
 }
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 20%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 15%; /* Makes the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    text-align: right;
+}
+
