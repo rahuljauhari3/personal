@@ -1,0 +1,31 @@
+{
+"title": "The Artist's Journey: Maya's Story of Perseverance",
+"description": "An inspiring tale about a village artist who stays true to her passion despite setbacks, showing that real success comes from dedication and authenticity.",
+"content": [
+{
+"script_1": "In a small village among green hills lived Maya, a young woman who loved to paint. While others worked regular jobs, Maya dreamed of becoming a famous artist. During the day, she worked hard in the fields, and at night, she painted beautiful pictures.",
+"img_1": ["Create a peaceful village scene with rolling green hills at sunset. Show a young woman in simple clothes painting on a canvas near a small cottage. Include warm lighting and soft colors to create a cozy atmosphere."],
+"video_1": ["Transform the peaceful village scene by adding gentle movement to the hills' grass, Maya's brush strokes, and sunset clouds. Add subtle ambient sounds of countryside evening and soft brush strokes."]
+},
+{
+"script_2": "Maya saved every bit of money she could to buy paints and canvas. Her small house was full of colorful paintings. Even though many people doubted her dream, she kept practicing and getting better.",
+"img_2": ["Create an interior scene of a humble village house filled with paintings of various sizes. Show art supplies, brushes, and canvases scattered around. Include warm lighting from a window highlighting the vibrant colors of the artwork."],
+"video_2": ["Animate the scene with subtle dust particles in the sunbeams, gentle movement of curtains in the breeze, and slow panning across the paintings. Add soft indoor ambient sounds."]
+},
+{
+"script_3": "One day, an art seller visited the village. He saw Maya's paintings drying in the sun and loved them. He promised to sell her art in a big city gallery. Maya was so happy and gave him her best paintings.",
+"img_3": ["Create a scene showing Maya's paintings drying on clotheslines outside her cottage. Include a well-dressed merchant examining the artwork with interest. Show Maya's hopeful expression as she talks with him."],
+"video_3": ["Add movement to the paintings gently swaying in the breeze, the merchant gesturing as he talks, and Maya's excited reactions. Include ambient sounds of village life and conversation."]
+},
+{
+"script_4": "Months passed, but Maya heard nothing from the seller. She found out he was a fake who took advantage of artists. Maya was sad, but she didn't give up painting. Instead, she started painting pictures of her village and its people.",
+"img_4": ["Create a split scene: one side showing Maya looking sad but determined at her easel, the other showing her new paintings of village life and local people in vivid, emotional style."],
+"video_4": ["Transition between the two sides of the scene, focusing on Maya's expression changing from sad to determined. Show her painting process and the growing collection of new artwork. Add gentle music and painting sounds."]
+},
+{
+"script_5": "Years later, a famous art expert found Maya's paintings by chance. He loved how real and honest her art was. He wrote about her in a big art magazine, and finally, people recognized her talent. Maya succeeded because she never stopped doing what she loved.",
+"img_5": ["Create an elegant gallery scene showing Maya's artwork prominently displayed. Include people admiring the paintings and Maya, now more mature, standing proudly but humble among her work."],
+"video_5": ["Pan across the gallery scene, showing various reactions of people viewing the artwork. Focus on Maya's gentle smile and the appreciation on viewers' faces. Add subtle gallery ambient sounds and soft background music."]
+}
+]
+}
